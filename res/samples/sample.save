@@ -1,0 +1,6 @@
+# pretend that we don't have a variable called "#" and treat it as a coment
+# variable name (var) | variable value (val: String)
+var val
+
+variable value
+var_name var_value

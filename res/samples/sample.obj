@@ -1,0 +1,40 @@
+# comment
+
+# new object named 'asd'
+o asd
+
+# vertex coordinate
+v 0.0 0.0 0.0
+
+# vertex texture coordinate
+vt 0.0 0.0
+
+# vertex normal
+vn 0.0 0.0 0.0
+
+# parameter space vertice (fur curves and stuff)
+vp 0.0 0.0 0.0
+
+# face with vertices (0), texcoords (1) and normals (2)
+f 0 0 0
+f 0/1 0/1 0/1
+f 0/1/2 0/1/2 0/1/2
+f 0//2 0//2 0//2
+
+# line element
+l 0 0 0
+
+# load a material template library file
+mtllib sample.mtl
+
+# use a material
+usemtl sample
+
+# object belongs to a group called 'dsa'
+g dsa
+
+# smooth shading
+s off
+s 1
+
+# TODO: Add more attributes

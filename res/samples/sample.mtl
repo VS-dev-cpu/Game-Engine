@@ -1,0 +1,39 @@
+# comment
+
+# new material named 'asd'
+newmtl asd
+
+# colors: ambient, diffuse, specular
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+
+# specular color's weight (between 0 and 1000)
+Ns 10.0
+
+# transparencity (d: higher=more opaque | Tr = 1-d)
+d 0.9
+Tr 0.1
+
+# transmission filter color (using RGB)
+Tf 1.0 0.5 0.5 
+
+# optical density
+Ni 1.45000
+
+# illumination mode
+# 0: Color on and Ambient off
+# 1: Color on and Ambient on
+# 2: Highlight on
+# 3: Reflection on and Ray trace on
+# 4: Transparency: Glass on, Reflection: Ray trace on
+# 5: Reflection: Fresnel on and Ray trace on
+# 6: Transparency: Refraction on, Reflection: Fresnel off and Ray trace on
+# 7: Transparency: Refraction on, Reflection: Fresnel on and Ray trace on
+# 8: Reflection on and Ray trace off
+# 9: Transparency: Glass on, Reflection: Ray trace off
+# 10: Casts shadows onto invisible surfaces
+
+illum 2
+
+# TODO: implement textured options

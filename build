@@ -1,0 +1,75 @@
+#!/bin/bash
+echo "-Building to Linux"
+
+#config
+LIN_COMPILER=(g++)
+
+LIN_LIBRARIES=(-lstdc++ -lSDL2main -lSDL2 -lSDL2_image -lGL -llua -lm -pthread -lfreetype)
+
+LIN_DIRECTORIES=(-I../build/include -Isrc/include)
+LIN_BINARIES=(-L../build/linux/lib)
+
+#build
+"${LIN_COMPILER[@]}" "${LIN_DIRECTORIES[@]}" -o obj/linmain.o -c src/main.cpp -Wno-narrowing
+"${LIN_COMPILER[@]}" "${LIN_DIRECTORIES[@]}" -o app obj/linmain.o "${LIN_BINARIES[@]}" "${LIN_LIBRARIES[@]}"
+exit 0
+#copy and stuff
+rm -R release/linux
+mkdir release/linux
+
+cp app release/linux
+
+cp -r res release/linux
+#cp -r code release/linux
+
+exit 0
+echo "-Building to Windows"
+
+#config
+WIN_COMPILER=(x86_64-w64-mingw32-g++)
+
+WIN_LIBRARIES=(-Wl,-Bstatic -lstdc++ -lwinpthread -Wl,-Bdynamic -static-libgcc -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_net -lopengl32 -llua -lm)
+
+WIN_DIRECTORIES=(-I../build/windows/include -Isrc/include)
+WIN_BINARIES=(-L../build/windows/lib)
+
+#build
+"${WIN_COMPILER[@]}" "${WIN_DIRECTORIES[@]}" -o obj/winmain.o -c src/main.cpp
+"${WIN_COMPILER[@]}" "${WIN_DIRECTORIES[@]}" -o app.exe obj/winmain.o "${WIN_BINARIES[@]}" "${WIN_LIBRARIES[@]}"
+
+#copy and stuff
+rm -R release/windows
+mkdir release/windows
+
+mv app.exe release/windows
+
+cp ../build/windows/bin/* release/windows
+
+cp -r res release/windows
+#cp -r code release/windows
+
+echo "-Build Done"
+exit
+
+echo "-Building to WEB"
+DIRECTORIES=(-Isrc/include -I../build/linux/include)
+
+emcc src/*.cpp "${DIRECTORIES[@]}" -O2 -s USE_SDL=2 -s USE_SDL_MIXER=2 -s USE_GLFW=3 --preload-file res --preload-file code -o index
+
+rm index.html
+rm -R release/web
+rm -R release/web.zip
+mkdir release/web
+
+cp -r res release/web
+cp -r code release/web
+cp ../build/web/index.html release/web
+
+mv index.js release/web
+mv index.wasm release/web
+mv index.data release/web
+
+zip -r release/web.zip release/web
+rm -R release/web
+
+echo "-Build Done"
