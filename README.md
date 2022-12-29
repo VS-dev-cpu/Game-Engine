@@ -26,3 +26,9 @@ Lighting & Shadowing System
 Physics Engine: Raycasting, Multithreading, Optimalizations
 
 Android Build Support
+
+# How to Build
+I only have a build script for linux, but it's nothing complicated
+It requires a folder named "./build" with the required include files, libraries and binaries (Coming Soon!).
+
+# Next Devlog Coming On 2023 Jan. 22. !
