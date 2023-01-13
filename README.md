@@ -17,13 +17,13 @@ The targeted platforms will be: Windows and Linux (it wont have apple build supp
 # Current Implementations
 Basic 2D Renderer
 Basic 3D Renderer
-Physics Engine (Beta)
+Virtual Cameras
 
 # Coming Up
 Audio System
 Particle System
 Lighting & Shadowing System
-Physics Engine: Raycasting, Multithreading, Optimalizations
+Physics Engine
 
 Android Build Support
 
