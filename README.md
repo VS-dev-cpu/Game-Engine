@@ -1,5 +1,5 @@
 # Game-Engine
-Alpha Version 22.12
+Alpha Version (22.12)
 
 # What's my motivation?
 I don't like Unity because it is way too large and has many unnecessary features
