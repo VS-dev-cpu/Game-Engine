@@ -3,8 +3,11 @@ Alpha Version (22.12)
 
 # What's my motivation?
 I don't like Unity because it is way too large and has many unnecessary features
-Unreal Engine is just abig NO for me, since it has no Linux version, so I have ~2 options left.
+
+Unreal Engine is just a big NO for me, since it has no Linux version, so I have ~2 options left.
+
 I like Godot, because it's light-weight and easy-to-use, but I don't like GDScript because I want it to use either C++ or Lua.
+
 And that's why I'm writing my own Engine.
 
 # Features
