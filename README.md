@@ -30,4 +30,5 @@ Android Build Support
 
 # How to Build
 I only have a build script for linux, but it's nothing complicated
+
 It requires a folder named "./build" with the required include files, libraries and binaries (Coming Soon!).
