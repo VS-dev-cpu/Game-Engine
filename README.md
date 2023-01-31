@@ -13,7 +13,8 @@ And that's why I'm writing my own Engine.
 # Features
 Scripting language(s): Lua (and C++)
 
-OpenGL Version: 3.3 Core/ 2.0 ES
+Windowing library: SDL2
+OpenGL Version: 3.3 Core / 2.0 ES
 
 Targeted platforms: Windows, Linux and Browser (later Android)
 
