@@ -1,9 +1,9 @@
 # Game-Engine
 Pre-Alpha Version
 
-This Game-Engine will be a more code-oriented Engine, it will be Open-Source and free.
+This Game-Engine will be a more code-oriented Engine than others, like [Unity](https://unity.com/), [Unreal](https://www.unrealengine.com/en-US) or [Godot](https://godotengine.org/)
 
-It is still under development, but I have a few infos that will probably not change:
+I'm planning on optimizing it for mainly indie games; it will have medium-graphics and somewhat fast performance
 
 It will...
 - use OpenGL
@@ -13,16 +13,9 @@ It will...
 
 > WARNING: The Current Version may be outdated (by a version)
 
-# What's my motivation?
-I don't like Unity because it is way too large and has much bload,
-Unreal Engine is just a big NO for me, since it has no Linux version, 
-I like Godot because it's light-weight, but I don't really like GDScript
-
-And that's why I'm writing my own Engine.
-
 # Features
 - Basic Lighting
 - Text Rendering
 - Physics (custom)
 
-> NOTE: some features are not written here ('cause they are basic and/or i forgot them :) )
+> NOTE: some features may not be here
