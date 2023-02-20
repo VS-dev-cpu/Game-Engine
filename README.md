@@ -1,6 +1,8 @@
 # Game-Engine
 ## Pre-Alpha Version
 
+> WARNING: The Current Version may be outdated!
+
 This Game-Engine will be a more code-oriented Engine than others, like [Unity](https://unity.com/), [Unreal](https://www.unrealengine.com/en-US) or [Godot](https://godotengine.org/)
 
 I'm planning on optimizing it for mainly indie games; it will have medium-graphics and somewhat fast performance
@@ -15,11 +17,6 @@ It will...
 Tho these are just my plans for it, but it may (and probably will) change, but i'm making devlogs on youtube about this Engine,
 and I'm looking forward for launch!
 
-If you want to support me by anything, you can subscribe on my channel or just leave a comment somewhere (that would make me really happy), and
-you can also consider being my patreon, but i'm fine with a like/comment too!
+If you want to support me, you can subscribe on my channel, and you can also consider being my patreon, but i'm also fine with a like/comment too!
 
-Thank you for reading it this far, i hope you'll have a good day!!! See y'all in the next devlog!
-
-Bye :)
-
-> WARNING: The Current Version may be outdated!
+Thank you for reading it this far, see y'all in the next devlog!
