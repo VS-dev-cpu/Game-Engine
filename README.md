@@ -6,16 +6,10 @@ This Game-Engine will be a more code-oriented Engine than others, like [Unity](h
 I'm planning on optimizing it for mainly indie games; it will have medium-graphics and somewhat fast performance
 
 It will...
-- use OpenGL
-- be scriptable in C++ and Lua
-- be cross-platform (Windows, Linux, HTML and Android)
-- have a custom physics engine (or maybe [Bullet](https://pybullet.org/wordpress/) or [React](https://www.reactphysics3d.com/))
+- use OpenGL (3.0 ES)
+- use [GLSL Shaders](https://learnopengl.com/Getting-started/Shaders), and will have something like [Unity's Shader-Graph](https://unity.com/features/shader-graph)
+- be scriptable in C++ and [Lua](https://www.lua.org/about.html)
+- be cross-platform ([Windows](https://www.mingw-w64.org/), [Linux](https://gcc.gnu.org/), [HTML](https://emscripten.org/) and Android)
+- have a custom Physics Engine (or maybe [Bullet](https://pybullet.org/wordpress/) or [React](https://www.reactphysics3d.com/))
 
-> WARNING: The Current Version may be outdated (by a version)
-
-# Features
-- Basic Lighting
-- Text Rendering
-- Physics (custom)
-
-> NOTE: some features may not be here
+> WARNING: The Current Version may be outdated!
