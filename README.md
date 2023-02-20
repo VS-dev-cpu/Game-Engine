@@ -14,7 +14,7 @@ It will...
 - be cross-platform ([Windows](https://www.mingw-w64.org/), [Linux](https://gcc.gnu.org/), [HTML](https://emscripten.org/) and Android)
 - have a custom Physics Engine (or maybe [Bullet](https://pybullet.org/wordpress/) or [React](https://www.reactphysics3d.com/))
 
-Tho these are just my plans for it, but it may (and probably will) change, but i'm making devlogs on youtube about this Engine,
+... these are just my plans for it, but it may (and probably will) change, but i'm making devlogs on youtube about this Engine,
 and I'm looking forward for launch!
 
 If you want to support me, you can subscribe on my channel, and you can also consider being my patreon, but i'm also fine with a like/comment too!
