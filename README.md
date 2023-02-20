@@ -9,7 +9,7 @@ It will...
 - use OpenGL
 - be scriptable in C++ and Lua
 - be cross-platform (Windows, Linux, HTML and Android)
-- have a custom physics engine (or maybe [Bullet](pybullet.org) or [React](reactphysics3d.com))
+- have a custom physics engine (or maybe [Bullet](https://www.pybullet.org/worldpress) or [React](https://www.reactphysics3d.com/))
 
 > WARNING: The Current Version may be outdated (by a version)
 
