@@ -15,8 +15,10 @@ It will...
 - have a custom Physics Engine (or maybe [Bullet](https://pybullet.org/wordpress/) or [React](https://www.reactphysics3d.com/))
 
 ... these are just my plans for it, but it may (and probably will) change, but i'm making devlogs on youtube about this Engine,
-and I'm looking forward for launch!
+where I tell every new thing about it.
 
 If you want to support me, you can subscribe on my channel, and you can also consider being my patreon, but i'm also fine with a like/comment too!
+
+btw here is [My Channel](https://www.youtube.com/channel/UCR8z9TUZnUDvs0XR0DUEnmw)
 
 Thank you for reading it this far, see y'all in the next devlog!
